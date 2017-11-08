@@ -1,0 +1,85 @@
+@import './base';
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_133a5t5ftlfskyb9.eot?t=1491919581176'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_133a5t5ftlfskyb9.eot?t=1491919581176#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_133a5t5ftlfskyb9.woff?t=1491919581176') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_133a5t5ftlfskyb9.ttf?t=1491919581176') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_133a5t5ftlfskyb9.svg?t=1491919581176#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size: pr(32);
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star2:before { content: "\e63e"; }
+
+.icon-arrow:before { content: "\e634"; }
+
+.icon-ok:before { content: "\e613"; }
+
+.icon-right:before { content: "\e611"; }
+
+.icon-bookwidth:before { content: "\e604"; }
+
+.icon-warn:before { content: "\e614"; }
+
+.icon-remove:before { content: "\e615"; }
+
+.icon-arrow2:before { content: "\e61d"; }
+
+.icon-user:before { content: "\e629"; }
+
+.icon-collect:before { content: "\e62a"; }
+
+.icon-dingwei:before { content: "\e657"; }
+
+.icon-dianhua:before { content: "\e658"; }
+
+.icon-top:before { content: "\e649"; }
+
+.icon-danxuan:before { content: "\e71f"; }
+
+.icon-yuanxingweixuanzhong:before { content: "\e72f"; }
+
+.icon-mima01:before { content: "\e675"; }
+
+.icon-dianhua-02:before { content: "\e676"; }
+
+.icon-dibiao01:before { content: "\e600"; }
+
+.icon-1:before { content: "\e601"; }
+
+.icon-11:before { content: "\e602"; }
+
+.icon-shoujihao:before { content: "\e618"; }
+
+.icon-user1:before { content: "\e616"; }
+
+.icon-sanjiaojiantou:before { content: "\e603"; }
+
+.icon-shouyeweidianji:before { content: "\e687"; }
+
+.icon-shouyeyidianji:before { content: "\e688"; }
+
+.icon-store:before { content: "\e68a"; }
+
+.icon-wodeyidianji:before { content: "\e68b"; }
+
+.icon-bookitem:before { content: "\e607"; }
+
+.icon-daifukuan:before { content: "\e696"; }
+
+.icon-keshiyong:before { content: "\e697"; }
+
+.icon-tuikuan1:before { content: "\e69a"; }
+
+.icon-yiwancheng1:before { content: "\e69b"; }
+
+.icon-livingicon:before { content: "\e608"; }
+
+.icon-play:before { content: "\e609"; }
