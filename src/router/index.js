@@ -5,6 +5,8 @@ import Index from '@/views/index';
 import Clock from '@/views/clock';
 import Coordinate from '@/views/coordinate';
 import Htmlele from '@/views/htmlele';
+import Htmlele2 from '@/views/htmlele2';
+
 Vue.use(Router);
 export default new Router({
   routes: [
@@ -25,10 +27,16 @@ export default new Router({
       name: 'Coordinate',
       component: Coordinate
     },
+    // 页面元素 随机生成圆圈
     {
       path: '/htmlele',
       name: 'Htmlele',
       component: Htmlele
+    },
+    {
+      path: '/htmlele2',
+      name: 'htmlele2',
+      component: Htmlele2
     }
   ]
 });

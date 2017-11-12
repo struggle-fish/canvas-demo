@@ -10,9 +10,12 @@ export default {
   name: 'app'
 };
 </script>
-
-<style lang="scss">
-@import './assets/scss/core/setting.scss';
-@import './assets/scss/core/reset.scss';
-@import './assets/scss/core/common.scss';
+<style >
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #dddddd;
+  }
 </style>
