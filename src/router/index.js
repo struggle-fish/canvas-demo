@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 // import Hello from '@/components/Hello';
 import Index from '@/views/index';
+import HelloWorld from '@/views/helloworld';
 import Clock from '@/views/clock';
 import Coordinate from '@/views/coordinate';
 import Htmlele from '@/views/htmlele';
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index
+    },
+    {
+      path: '/helloworld',
+      name: 'HelloWorld',
+      component: HelloWorld
     },
     // 表
     {
@@ -33,9 +39,10 @@ export default new Router({
       name: 'Htmlele',
       component: Htmlele
     },
+    // 页面元素 放大图片
     {
       path: '/htmlele2',
-      name: 'htmlele2',
+      name: 'Htmlele2',
       component: Htmlele2
     }
   ]
