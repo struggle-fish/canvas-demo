@@ -39,11 +39,13 @@
         };
       }
       // console.log(that.circles);
+      // 绘制网格
       that.drawGrid({
         color: 'lightgray',
         stepx: 10,
         stepy: 10
       });
+      // 绘制圆
       that.drawCircle();
     },
     methods: {
@@ -79,8 +81,9 @@
       // 生成位置
       adjustPosition (circle) {
         let that = this;
+        // 撞到边界反向运动
         if (circle.x + circle.velocityX + circle.radius > that.ctx.canvas.width || circle.x + circle.velocityX - circle.radius < 0) {
-          circle.velocityX = -circle.velocityX; // 撞到边界反向运动
+          circle.velocityX = -circle.velocityX;
         }
         if (circle.y + circle.velocityY + circle.radius > that.ctx.canvas.height || circle.y + circle.velocityY - circle.radius < 0) {
           circle.velocityY = -circle.velocityY;
@@ -93,7 +96,6 @@
         let that = this;
         let { color = 'red', stepx = 10, stepy = 10 } = params;
         that.ctx.strokeStyle = color;
-        console.log(stepy);
         that.ctx.lineWidth = 0.5;
         // 绘制 竖线
         for (let i = stepx + 0.5; i < that.ctx.canvas.width; i += stepx) {
